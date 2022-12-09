@@ -1,0 +1,93 @@
+/* ny css */
+
+.nybooking-container {
+    display: grid;
+    grid-template-areas: 'wrapper' ' knapper ';
+}
+
+.hide-form {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .nybooking-wrapper {
+        padding: 1em;
+        grid-area: wrapper;
+        display: grid;
+        /* grid-template-columns: 1fr 1fr; */
+        grid-template-areas: none;
+    }
+}
+
+.nybooking-wrapper {
+    padding: 1em;
+    grid-area: wrapper;
+    display: grid;
+    grid-template-areas: 'calendar reservation';
+    grid-template-columns: 1fr 1fr;
+}
+
+.reservation {
+    margin: 0 0 0 1em;
+    display: grid;
+    /* width: 50%; */
+}
+
+.calendar {
+    margin: 0 1em 0 0;
+    /* height: 100%; */
+}
+
+
+/* 
+.ledige {
+    height: 50%;
+} */
+
+
+/* ny css slut */
+
+select,
+input {
+    color: #2c2c2c;
+    border-radius: 6px;
+    width: 100%;
+    height: 20px;
+}
+
+#timeSelect {
+    height: 32px;
+    /* width: fit-content; */
+    border: white;
+    overflow: hidden;
+    width: 100%;
+}
+
+#timeSelect::-moz-focus-inner {
+    border: 0;
+}
+
+#timeSelect:focus {
+    outline: none;
+}
+
+#timeSelect option {
+    padding: 6px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 6px;
+    /* border: black; */
+    width: 30%;
+}
+
+#timeSelect option:hover {
+    background-color: #96D3DE;
+}
+
+#timeSelect option:active,
+#timeSelect option:focus {
+    background-color: #ff0000;
+    color: red;
+    border-radius: 5px soild black;
+    outline: black;
+}

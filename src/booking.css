@@ -1,0 +1,64 @@
+.booking-container {
+    display: grid;
+    grid-template-areas: ' wrapper' '  knapper ';
+    /* background: url("/src/img/indstillingerbg.svg"); */
+    /* padding: 1rem; */
+}
+
+.booking-wrapper {
+    padding: 1em;
+    grid-area: wrapper;
+    display: grid;
+    grid-template-areas: 'calendar reservation';
+}
+
+.calendar {
+    grid-area: calendar;
+}
+
+.reservation {
+    grid-area: reservation;
+}
+
+.reservation h2 {
+    margin: 0;
+    height: 0.5em;
+}
+
+.overscroll div p {
+    margin-top: 0.5em;
+}
+
+.delete-knap {
+    color: #2c2c2c;
+    background-color: #F89B30;
+    border-radius: 6px;
+    border: none;
+    /* width: 55%; */
+    height: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.delete-knap:hover {
+    transition: 0.5s;
+    color: #2c2c2c;
+    background-color: rgb(219, 219, 219);
+}
+
+.booked-info {
+    background-color: aliceblue;
+    display: grid;
+    grid-template-areas: '1 2';
+    margin-bottom: 0.4em;
+}
+
+.booked-info div {
+    align-items: center;
+}
+
+.overscroll {
+    overflow-y: scroll;
+    height: 220px;
+}
