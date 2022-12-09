@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-1/static/css/main.dea062bf.css",
+    "main.js": "/react-1/static/js/main.5343ff00.js",
+    "static/js/787.9c4083a9.chunk.js": "/react-1/static/js/787.9c4083a9.chunk.js",
+    "static/media/avatar.jpg": "/react-1/static/media/avatar.fc0296b15f525caff81f.jpg",
+    "static/media/size.jpg": "/react-1/static/media/size.caac6a297f490067c9c4.jpg",
+    "static/media/furniture.jpg": "/react-1/static/media/furniture.b3b8373cb1a45b87ffac.jpg",
+    "static/media/projector.jpg": "/react-1/static/media/projector.76110a70de91fa420cf4.jpg",
+    "static/media/house.jpg": "/react-1/static/media/house.98e6cc06db7985a54726.jpg",
+    "static/media/dine-indstillinger.PNG": "/react-1/static/media/dine-indstillinger.779a31ca5c3ef6e776ac.PNG",
+    "static/media/aktuelle-bookinger.PNG": "/react-1/static/media/aktuelle-bookinger.c979001fbb48ee31218e.PNG",
+    "static/media/ny-booking.PNG": "/react-1/static/media/ny-booking.a8ce832f29e3ba1f87b8.PNG",
+    "index.html": "/react-1/index.html",
+    "main.dea062bf.css.map": "/react-1/static/css/main.dea062bf.css.map",
+    "main.5343ff00.js.map": "/react-1/static/js/main.5343ff00.js.map",
+    "787.9c4083a9.chunk.js.map": "/react-1/static/js/787.9c4083a9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dea062bf.css",
+    "static/js/main.5343ff00.js"
+  ]
+}
